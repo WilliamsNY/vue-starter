@@ -17,6 +17,12 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li><a v-link="{ path: '/home' }">Home</a></li>
+				<li><a v-link="{ path: '/home/welcome' }">
+					Welcome
+				</a></li>
+				<li><a v-link="{ path: '/home/about' }">
+					About us
+				</a></li>
 				<li><a v-link="{ path: '/dogs' }" v-if="$root.authenticated">Dogs</a></li>
 			</ul>
 			<!-- Right Side Of Navbar -->
